@@ -1,0 +1,52 @@
+* {
+    font-size: 28px;
+}
+
+.para {
+    font-weight: bold;
+}
+
+.small-para {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#confirm-button {
+    background-color: green;
+    color: whitesmoke;
+}
+
+#cancel-button {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* Alternative Button via Selectors 
+ * .button.confirm {
+ *      background-color: green;
+ *      color: whitesmoke;
+ *  } 
+ *  
+ * .button.cancel {
+ *      background-color: whitesmoke;
+ *      color: black;
+ *  }   
+*/
+
+div .text {
+    font-weight: lighter;
+}
+
+div .child {
+    font-weight: bolder;
+}
+
+/* Alternative Text via Selectors
+ * .text {
+ *      font-weight: lighter;
+ * }
+ *
+ * .text .child {
+ *      font-weight: bolder;
+ * }
+*/
